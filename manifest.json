@@ -1,0 +1,13 @@
+{"name": "torrent adder",
+ "version": "1.0",
+ "manifest_version": 2,
+ "description": "adds torrents to transmission",
+ "icons": {"16": "icon16.png", "128": "icon128.png"},
+ "background": {"persistent": false, "scripts": ["background.js"]},
+ "default_locale": "en",
+ "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+ "permissions": ["contextMenus", "downloads", "downloads.open", "storage","http://10.0.1.4:9091/"]
+}
