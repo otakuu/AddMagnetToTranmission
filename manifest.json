@@ -1,5 +1,5 @@
 {"name": "torrent adder",
- "version": "1.0",
+ "version": "1.2",
  "manifest_version": 2,
  "description": "adds torrents to transmission",
  "icons": {"16": "icon16.png", "128": "icon128.png"},
@@ -9,5 +9,5 @@
     "page": "options.html",
     "chrome_style": true
   },
- "permissions": ["contextMenus", "downloads", "downloads.open", "storage","http://10.0.1.4:9091/"]
+ "permissions": ["contextMenus", "downloads", "downloads.open", "storage","*://*/*"]
 }
