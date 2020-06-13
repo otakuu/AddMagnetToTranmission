@@ -1,9 +1,3 @@
-// Copyright (c) 2013 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
-
-
 chrome.contextMenus.onClicked.addListener(function(info, tab) {
     
     console.log('url: '+info.linkUrl)
@@ -61,10 +55,6 @@ chrome.contextMenus.onClicked.addListener(function(info, tab) {
   		}
 	}
 	xhrSession.send();
-
-    //open ui in new tab
-  	var newURL = url+"transmission/web/";
-    chrome.tabs.create({ url: newURL });
   	
   	});
 
